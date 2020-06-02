@@ -6,7 +6,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<meta name="keywords" content="">
-		<!-- url de base pour tous liens de la page web -->
+		<!-- Url de base pour tous liens de la page web -->
 		<base href="">
 		<link rel="shortcut icon" type="image/x-icon" href=" ">
 		<link rel="stylesheet" type="text/css" href=" ">
@@ -22,19 +22,87 @@
 		<!-- css boostrap -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<meta http-equiv="refresh" content="30">
-		<!-- open graph data, protocole de metadonnées crée par facebook pour le partage d'article et de contenu -->
-		<!-- balise de base -->
+		<!-- Open graph data, protocole de metadonnées crée par facebook pour le partage d'article et de contenu -->
+		<!-- Balise de base -->
 		<meta property="og:image" content=" ">
 		<meta property="og:type"  content=" " />
-		<meta property="og:description" content=" ">
 		<meta property="og:title" content=" ">
+		<meta property="og:description" content=" ">
 		<meta property="og:url" content=" " />
-		<!-- carte twitter -->
+		<!-- 
+		<meta property="og:locale" content="en_GB" />
+		<meta property="og:locale:alternate" content="fr_FR" />
+		<meta property="og:locale:alternate" content="es_ES" />
+		<meta property="og:site_name" content="IMDb" /> 
+		-->
+		<!-- Pour les images --> 
+		<!-- 
+		<meta property="og:image" content=" ">
+		<meta property="og:image:url" content=" ">
+		<meta property="og:image:secure_url" content=" ">
+		<meta property="og:image:type"  content=" " />
+		<meta property="og:image:width" content=" ">
+		<meta property="og:image:height" content=" "> 
+		-->
+		<!-- Pour les audios -->
+		<!-- 
+		<meta property="og:audio" content="http://example.com/sound.mp3" />
+		<meta property="og:audio:secure_url" content="https://secure.example.com/sound.mp3" />
+		<meta property="og:audio:type" content="audio/mpeg" /> 
+		-->
+		<!-- Pour les videos --> 
+		<!-- 
+		<meta property="og:video" content=" ">
+		<meta property="og:image" content=" ">
+		<meta property="og:video:url" content=" ">
+		<meta property="og:video:secure_url" content=" ">
+		<meta property="og:video:type"  content=" " />
+		<meta property="og:video:width" content=" ">
+		<meta property="og:video:height" content=" "> 
+		-->
+		<!-- Carte twitter -->
 		<meta name="twitter:card" content=" " />
-		<meta name="twitter:site" content=" " />
+		<meta name="twitter:image" content=" " />
+		<!-- texte alternative de 420 caractrères max -->
+		<meta name="twitter:image:alt" content=" ">
+		<meta name="twitter:title" content=" " />
+		<meta name="twitter:description" content=" " />
 		<meta name="twitter:creator" content=" " />
-		<!-- icone de demmarage pour mobile   -->
-		<!-- troisième-génération iPad avec haute-résolution Retina display: -->
+		<meta name="twitter:site" content=" " />
+		<!-- iframe avec une URL en HTTPS -->
+		<!-- 
+			<meta name="twitter:player" content=" " /> 
+		-->
+		<!-- largeur de l'iframe -->
+		<!-- 
+			<meta name="twitter:player:width" content=" " /> 
+		-->
+		<!-- hauteur de l'iframe -->
+		<!-- 
+			<meta name="twitter:player:height" content=" " /> 
+		-->
+		<!-- Url vers un flux vidéo ou audio brut -->
+		<!-- 
+			<meta name="twitter:player:stream" content=" " /> 
+		-->
+		<!-- carte d'application -->
+		<!-- 
+		<meta name="twitter:card" content="app">
+		<meta name="twitter:site" content="@TwitterDev">
+		<meta name="twitter:description" content="Cannonball is the fun way to create and share stories and poems on your phone. Start with a beautiful image from the gallery, then choose words to complete the story and share it with friends.">
+		<meta name="twitter:app:country" content="US">
+		<meta name="twitter:app:name:iphone" content="Cannonball">
+		<meta name="twitter:app:id:iphone" content="929750075">
+		<meta name="twitter:app:url:iphone" content="cannonball://poem/5149e249222f9e600a7540ef">
+		<meta name="twitter:app:name:ipad" content="Cannonball">
+		<meta name="twitter:app:id:ipad" content="929750075">
+		<meta name="twitter:app:url:ipad" content="cannonball://poem/5149e249222f9e600a7540ef">
+		<meta name="twitter:app:name:googleplay" content="Cannonball">
+		<meta name="twitter:app:id:googleplay" content="io.fabric.samples.cannonball">
+		<meta name="twitter:app:url:googleplay" content="http://cannonball.fabric.io/poem/5149e249222f9e600a7540ef"> 
+		-->
+		<!-- Icone de demmarage pour mobile   -->
+		<!-- Troisième-génération iPad avec haute-résolution Retina display: -->
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
 		<!-- iPhone avec haute-résolution Retina display: -->
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
@@ -42,21 +110,21 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
 		<!-- iPhone non-Retina, iPod Touch et appareils Android 2.1+: -->
 		<link rel="apple-touch-icon-precomposed" href="">
-		<!-- favicône -->
-		<link rel="shortcut icon" href="">
+		<!-- Favicône -->
+		<link rel="shortcut icon" type="image/x-icon" href="">
 		<script type="text/javascript" src=""></script>
 		<!-- 
-		alternative lorsque le navigateur ne supporte pas JS ou que la lecture de fichiers JS est 
+		Alternative lorsque le navigateur ne supporte pas JS ou que la lecture de fichiers JS est 
 		-->
 		<noscript></noscript>
 		<!-- 
-		stockee du contenu HTML (côté client) qui ne doit pas être affiché lors du chargement de la page mais qui peut être instancié et affiché par la suite grâce à un script JS 
+		Stockee du contenu HTML (côté client) qui ne doit pas être affiché lors du chargement de la page mais qui peut être instancié et affiché par la suite grâce à un script JS 
 		-->
 		<template></template>
 	</head>
 	<body>
 
-		<!-- js boostrap -->
+		<!-- Js boostrap -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
